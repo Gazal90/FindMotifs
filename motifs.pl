@@ -1,6 +1,5 @@
 #!usr/bin/perl
 
-##check
 open(PR,$ARGV[0]); #promoter sequences fasta file
 open(MOT,$ARGV[1]); #$motif sequences file #has motif sequences to be searched for.
 @motifs=<MOT>;#print $#motifs;
